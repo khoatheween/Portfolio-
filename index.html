@@ -128,6 +128,15 @@ footer{background:var(--text-dark);color:var(--mid-grey);padding:4rem 8vw;text-a
 .dl-note{font-size:.85rem;color:var(--text-muted);margin-bottom:1rem}
 .dl-row{display:flex;flex-wrap:wrap;gap:.75rem}
 .dl-row .drive-btn{margin-top:0}
+.wt-company{font-size:1.35rem;font-weight:700;color:var(--text-dark);margin:3rem 0 .25rem}
+.wt-company.first{margin-top:1.5rem}
+.wt-meta{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--text-muted);letter-spacing:.04em;margin-bottom:1.25rem}
+.wt-card{background:var(--off-white);border:1px solid var(--light-grey);border-radius:var(--radius);padding:1.75rem 2rem}
+.wt-card ul{margin:0;padding-left:1.2rem}
+.wt-card li{margin-bottom:.6rem;line-height:1.6;color:var(--text-dark)}
+.wt-tags{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.25rem}
+.wt-tag{font-family:'JetBrains Mono',monospace;font-size:.7rem;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.2rem .7rem}
+.wt-confidential{display:flex;gap:.6rem;align-items:flex-start;margin-top:1.25rem;padding:.9rem 1.1rem;border-left:3px solid var(--accent);background:var(--white);font-size:.85rem;color:var(--text-muted)}
 </style>
 </head>
 <body>
@@ -137,7 +146,7 @@ footer{background:var(--text-dark);color:var(--mid-grey);padding:4rem 8vw;text-a
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
-    <li><a href="#work">Work Term</a></li>
+    <li><a href="#work">Work Terms</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#solidworks">SolidWorks</a></li>
     <li><a href="#autocad">AutoCAD</a></li>
@@ -191,7 +200,24 @@ footer{background:var(--text-dark);color:var(--mid-grey);padding:4rem 8vw;text-a
 <!-- WORK TERM -->
 <section class="workterm-section" id="work">
   <p class="eyebrow">Experience</p>
-  <h2 class="sec-title">First Work Term</h2>
+  <h2 class="sec-title">Work Terms</h2>
+
+  <h3 class="wt-company first">Seaspan Shipyards &mdash; Intern, Design Build</h3>
+  <p class="wt-meta">North Vancouver, BC &middot; September 2026 &ndash; December 2026</p>
+  <div class="wt-card">
+    <ul>
+      <li>Built product hierarchies for 2 hull blocks in CADMATIC and Visio, breaking each block down into assemblies, sub-assemblies and parts to set the build sequence for production.</li>
+      <li>Helped produce 2 erection sequences, one for the MPI and one for the Polar ship, planning the order in which structural blocks are lifted, joined and installed.</li>
+      <li>Produced the zone arrangement for the MPI in AutoCAD, dividing the vessel into build zones to support outfitting and production planning.</li>
+      <li>Learned the end-to-end shipyard build process and each shop&rsquo;s role and constraints, and used that knowledge to plan block builds that were easier and faster to produce.</li>
+      <li>Worked daily with senior engineers and with the planning and operations teams to get feedback, flag challenges early, and make sure deliverables were accurate.</li>
+    </ul>
+    <div class="wt-tags"><span class="wt-tag">CADMATIC</span><span class="wt-tag">AutoCAD</span><span class="wt-tag">Visio</span><span class="wt-tag">Build Planning</span><span class="wt-tag">Erection Sequencing</span></div>
+    <div class="wt-confidential">&#128274;&nbsp;All work produced during this term is confidential and cannot be disclosed, so no drawings or models are shown here.</div>
+  </div>
+
+  <h3 class="wt-company">Vimatec Marine Engineering &mdash; Piping Design Co-op</h3>
+  <p class="wt-meta">Ho Chi Minh City, Vietnam &middot; January 2026 &ndash; April 2026</p>
   <p class="sec-lead">During my first co-op work term at Vimatec, I produced over 1,500 2D drawings and modelled more than 20 parts in 3D across a range of marine piping and machinery systems. As much of this work is confidential, the following is a small selection of what I am able to share.</p>
 
   <p class="wt-subhead first">2D Drawings</p>
